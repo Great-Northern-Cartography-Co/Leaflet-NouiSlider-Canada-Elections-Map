@@ -1,0 +1,89 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+
+	<title>Canadian Election Results</title>
+    
+    <meta name="robots" content="index, follow">    
+    <meta name="description" content="">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" type="img/ico" href="img/favicon.ico"/>
+	<link rel="Shortcut Icon"  type="image/ico" href="img/logo.ico">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
+	<link rel="stylesheet" type="text/css" href="app/bower_components/nouislider/nouislider.min.css" />
+	<link rel="stylesheet" type="text/css" href="app/bower_components/leaflet/leaflet.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+<div class="preload">
+    <img src="img/2000.jpg" style="visibility:hidden"> 
+	<img src="img/2004.jpg" style="visibility:hidden"> 
+	<img src="img/2006.jpg" style="visibility:hidden">
+	<img src="img/2008.jpg" style="visibility:hidden">
+	<img src="img/2011.jpg" style="visibility:hidden">
+	<img src="img/2015.jpg" style="visibility:hidden"> 
+</div>
+<!--
+<div id="loader-wrapper">
+    <div id="loader"></div>
+-->
+
+	    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li>	
+			<div class="example" id="showcase">
+			<div id="img"></div>
+				<span id="value-slider"> </span>
+      </div>
+    </div>
+
+	<div id="map"></div>	       
+	<div class="sliderContainer">
+			<div class="noUi-base" id="slider"></div>
+
+		
+</div>
+
+<div id="tooltip" class="box">
+  <div class="district"></div>
+  <div class="headline"></div>
+  <div class="winner"></div>
+  <div class="winner2"></div>
+  <hr>
+  <div class="second"></div>
+  <div class="third"></div>
+  <div class="fourth"></div>
+  <div class="fifth"></div>
+  <div class="sixth"></div>
+  <div class="seventh"></div>
+  <div class="eigth"></div>
+  <div class="ninth"></div>
+  <div class="tenth"></div>
+  <div class="votes"></div>
+ </div>
+
+
+  
+   
+	<script src="app/bower_components/jquery/jquery.min.js"></script>
+    <script src="app/bower_components/nouislider/nouislider.js"></script>
+	<script src="app/bower_components/nouislider/nouislider.min.js"></script>
+	<script src="app/bower_components/nouislider/wNumb.js"></script>
+	<script src="app/bower_components/leaflet/leaflet.js"></script>
+	<script src="app/bower_components/topojson/topojson.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/topojson-leaflet.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/main.js"></script>
+	
+</body>
+</html>
