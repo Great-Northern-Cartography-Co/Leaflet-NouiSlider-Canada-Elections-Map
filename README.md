@@ -1,5 +1,4 @@
-# Leaflet-NouiSlider-Canada-Elections-Map
+
+Interactive Elections Map
 Leaflet NouiSlider Canada Elections Map
 
-test
-trdy
