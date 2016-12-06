@@ -1,4 +1,5 @@
 <p><br /><span style="font-size: medium;"><strong>Interactive Elections Map</strong></span><br /><span style="font-size: medium;">Leaflet NouiSlider Canada Elections Map</span></p>
+<p>This project was developed as a method for effective visual display of large datasets, filtering a single polygon dataset attribute with Leaflet controlled by the user through the NoUiSlider.&nbsp;</p> 
 <p><br /><a href="http://greggsmuller.com/gis/">Demo</a></p>
 <p><img style="float: left;" title="Screenshot" src="https://raw.githubusercontent.com/Great-Northern-Cartography-Co/Leaflet-NouiSlider-Canada-Elections-Map/master/img/screenshot.jpg" alt="" width="800" height="525" /></p>
 <p><strong>Installation<br /></strong>Start a webserver in the app folder. For example:</p>
