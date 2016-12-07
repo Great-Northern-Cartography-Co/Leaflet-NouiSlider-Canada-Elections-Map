@@ -1,5 +1,5 @@
 <p><br /><span style="font-size: medium;"><strong>Interactive Elections Map</strong></span><br /><span style="font-size: medium;">Leaflet NouiSlider Canada Elections Map</span></p>
-<p>This project was developed as a method for effective visual display of large datasets, filtering a single polygon dataset attribute with Leaflet controlled by the user through the NoUiSlider. This example uses geoJSON data and at 5.5MB initial load is a bit slow. In hindsight I`d recommend using <a href="https://github.com/topojson/topojson">TopoJSON</a> format for anything over 2MB.&nbsp;</p> 
+<p>This project was developed as a method for effective visual display of large datasets, filtering a single polygon dataset attribute with Leaflet controlled by the user through the NoUiSlider. This example uses geoJSON data and at 5.5MB initial load is slow. I`d recommend using <a href="https://github.com/topojson/topojson">TopoJSON</a> format for anything over 2MB.&nbsp;</p> 
 <p><br /><a href="http://greggsmuller.com/gis/">Demo</a></p>
 <p><img style="float: left;" title="Screenshot" src="https://raw.githubusercontent.com/Great-Northern-Cartography-Co/Leaflet-NouiSlider-Canada-Elections-Map/master/img/screenshot.jpg" alt="" width="800" height="525" /></p>
 <p><strong>Installation<br /></strong>Start a webserver in the app folder. For example:</p>
@@ -7,7 +7,8 @@
 <p>$ python -m http.server 1333<br />For older versions of python</p>
 <p>$ python -m SimpleHTTPServer 1333<br />visit http://localhost:1333</p>
 <p><br /><strong>Development</strong><br />The map is based on <a href="http://leafletjs.com">Leaflet 1.02</a>&nbsp;and election data is in <a href="http://geojson.org">geojson</a></p>
-<p><strong>Data</strong><br />Electoral Data was and compiled from lab-deliminated spreadsheets when available and by poll-by-poll data when necesary from <a href="http://www.elections.ca/content.aspx?section=res&amp;dir=rep/off/38gedata&amp;document=byed&amp;lang=e">Elections.ca</a></p>
+<p><strong>Data</strong><br />Electoral Data was and compiled and cleaned from Elections Canada ridings results. Electoral data 2000-2015  is available for download here <a href="https://www.dropbox.com/s/6zc2htmket1gbdx/fedrslts.geojson?dl=0">Electoral Data Dropbox</a></p>
+<p><img style="float: left;" title="Screenshot" src="https://raw.githubusercontent.com/Great-Northern-Cartography-Co/Leaflet-NouiSlider-Canada-Elections-Map/master/ScreenHunter_708%20Dec.%2006%2022.22.jpg" alt="" width="800" height="525" /></p>
 <p><strong>UI</strong><br />These libraries were used for UI<br /><a href="http://jquery.com/">jQuery</a><br /><a href="https://refreshless.com/nouislider/">noUiSlider</a></p>
 <p><strong>Inspiration</strong><br /><a href="https://github.com/berlinermorgenpost/mietkarte">mietkarte</a><br /><a href="http://gis.stackexchange.com/users/56906/nathansnider">nathansnider</a></p>
 <p><strong>License</strong><br />The MIT License (MIT)</p>
